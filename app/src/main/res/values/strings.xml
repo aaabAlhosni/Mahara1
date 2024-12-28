@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MaharaApp</string>
+    <string name="navigation_drawer_open">MaharaApp</string>
+    <string name="navigation_drawer_close">MaharaApp</string>
+
+    <string-array name="session_list">
+        <item>Select Session</item>
+        <item>Training 1</item>
+        <item>Training 2</item>
+        <item>Training 3</item>
+        <item>Training 4</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="booking">Booking</string>
+    <string name="add_session">Add Restaurant</string>
+
+
+</resources>

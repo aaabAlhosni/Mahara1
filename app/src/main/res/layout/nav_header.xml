@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@color/primary"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/app_name"
+       />
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:layout_height="match_parent"/>
+
+    <!-- Other profile information (e.g., TextViews) can be added here -->
+</LinearLayout>
